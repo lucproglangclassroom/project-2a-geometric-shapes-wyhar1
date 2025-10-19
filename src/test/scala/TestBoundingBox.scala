@@ -1,4 +1,4 @@
-package edu.luc.cs.laufer.cs371.shapes
+package shapes
 
 import org.scalatest.funsuite.AnyFunSuite
 

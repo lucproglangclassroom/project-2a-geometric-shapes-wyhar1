@@ -1,12 +1,12 @@
-package edu.luc.cs.laufer.cs371.shapes
+// src/test/scala/shapes/TestFixtures.scala
+package shapes
 
 import Shape.*
 
 object TestFixtures:
 
-  // TODO comment these fixtures back in after adding the required case classes
-
-  //  val simpleEllipse = Ellipse(50, 30)
+  // uncommented fixtures used by TestBoundingBox
+  val simpleEllipse = Ellipse(50, 30)
 
   val simpleRectangle = Rectangle(80, 120)
 
@@ -27,11 +27,9 @@ object TestFixtures:
           Group(
             Rectangle(50, 30),
             Rectangle(300, 60),
-            Location(100, 200,
-              Ellipse(50, 30)
-            )
-          )),
+            Location(100, 200, Ellipse(50, 30))
+          )
+        ),
         Rectangle(100, 200)
-      ))
-
-end TestFixtures
+      )
+    )

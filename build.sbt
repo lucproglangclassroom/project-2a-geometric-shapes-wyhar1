@@ -1,5 +1,5 @@
 name := "shapes-oo-scala"
-
+scalaVersion := "3.3.3"
 version := "0.4"
 
 libraryDependencies ++= Seq(
