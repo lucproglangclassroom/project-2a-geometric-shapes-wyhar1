@@ -1,10 +1,5 @@
-package edu.luc.cs.laufer.cs371.shapes
-
-import TestFixtures.*
-import Shape.Rectangle
+// src/test/scala/shapes/Main.scala
+package shapes
 
 object Main:
-  def main(args: Array[String]): Unit =
-    println(boundingBox(simpleLocation))
-    println(Rectangle(2, 3) == Rectangle(2, 3))
-end Main
+  def main(args: Array[String]): Unit = ()
