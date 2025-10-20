@@ -4,8 +4,8 @@ import scala.annotation.targetName
 import scala.CanEqual
 
 sealed trait Shape
+// "require" sends failed conditions to stderr, so this is fine for logging
 object Shape {
-
   final case class Rectangle(width: Int, height: Int) extends Shape {
     require(width >= 0 && height >= 0, s"Rectangle must have nonnegative dimensions, got ($width,$height)")
   }
